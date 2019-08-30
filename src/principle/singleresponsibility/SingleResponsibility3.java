@@ -8,7 +8,6 @@ public class SingleResponsibility3 {
 		vehicle2.runWater("轮船");
 		vehicle2.runAir("飞机");
 	}
-
 }
 
 
@@ -18,7 +17,6 @@ public class SingleResponsibility3 {
 class Vehicle2 {
 	public void run(String vehicle) {
 		//处理
-
 		System.out.println(vehicle + " 在公路上运行....");
 
 	}
@@ -30,6 +28,4 @@ class Vehicle2 {
 	public void runWater(String vehicle) {
 		System.out.println(vehicle + " 在水中行....");
 	}
-
-
 }
