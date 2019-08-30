@@ -2,6 +2,7 @@ package singleton;
 
 public class SingletonTest01 {
     public static void main(String[] args) {
+
         //测试
         Singleton instance = Singleton.getInstance();
         Singleton instance2 = Singleton.getInstance();
