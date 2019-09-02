@@ -1,7 +1,7 @@
 package designpattern.singleton.type2;
 
 
-// 饿汉式(静态变量)
+// 饿汉式(静态代码块)！！！可用，但可能浪费内存！！！
 public class Singleton {
     //1. 构造器私有化, 外部能new
     private Singleton() {
@@ -12,7 +12,7 @@ public class Singleton {
     //2.本类内部创建对象实例
     private  static Singleton instance;
 
-    static { // 在静态代码块中，创建单例对象
+    static { // ！！！在静态代码块中，创建单例对象！！！
         instance = new Singleton();
     }
 
