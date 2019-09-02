@@ -1,4 +1,4 @@
-package singleton.type2;
+package designpattern.singleton.type2;
 
 public class SingletonTest02 {
     public static void main(String[] args) {
