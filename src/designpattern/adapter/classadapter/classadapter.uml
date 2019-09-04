@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designpattern.adapter.classadapter</OriginalElement>
+  <nodes>
+    <node x="21.5" y="80.0">designpattern.adapter.classadapter.VoltageAdapter</node>
+    <node x="163.75" y="160.0">designpattern.adapter.classadapter.Client</node>
+    <node x="183.25" y="80.0">designpattern.adapter.classadapter.Phone</node>
+    <node x="142.0" y="0.0">designpattern.adapter.classadapter.IVoltage5V</node>
+    <node x="0.0" y="0.0">designpattern.adapter.classadapter.Voltage220V</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="designpattern.adapter.classadapter.VoltageAdapter" target="designpattern.adapter.classadapter.Voltage220V">
+      <point x="0.0" y="-15.0" />
+      <point x="30.5" y="15.0" />
+    </edge>
+    <edge source="designpattern.adapter.classadapter.VoltageAdapter" target="designpattern.adapter.classadapter.IVoltage5V">
+      <point x="46.66666666666666" y="-15.0" />
+      <point x="138.16666666666666" y="55.0" />
+      <point x="169.75" y="55.0" />
+      <point x="-27.75" y="15.0" />
+    </edge>
+    <edge source="designpattern.adapter.classadapter.Client" target="designpattern.adapter.classadapter.Phone">
+      <point x="27.0" y="-15.0" />
+      <point x="231.25" y="135.0" />
+      <point x="246.25" y="135.0" />
+      <point x="21.0" y="15.0" />
+    </edge>
+    <edge source="designpattern.adapter.classadapter.Phone" target="designpattern.adapter.classadapter.IVoltage5V">
+      <point x="0.0" y="-15.0" />
+      <point x="27.75" y="15.0" />
+    </edge>
+    <edge source="designpattern.adapter.classadapter.Client" target="designpattern.adapter.classadapter.VoltageAdapter">
+      <point x="-27.0" y="-15.0" />
+      <point x="177.25" y="135.0" />
+      <point x="91.5" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="127.0" y="93.0" />
+  <SelectedNodes>
+    <node>designpattern.adapter.classadapter.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

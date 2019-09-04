@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designpattern.bridge</OriginalElement>
+  <nodes>
+    <node x="108.0" y="235.0">designpattern.bridge.Vivo</node>
+    <node x="152.0" y="80.0">designpattern.bridge.FoldedPhone</node>
+    <node x="0.0" y="80.0">designpattern.bridge.UpRightPhone</node>
+    <node x="0.0" y="235.0">designpattern.bridge.XiaoMi</node>
+    <node x="225.0" y="155.0">designpattern.bridge.Client</node>
+    <node x="97.75" y="0.0">designpattern.bridge.Phone</node>
+    <node x="51.5" y="155.0">designpattern.bridge.IBrand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="designpattern.bridge.UpRightPhone" target="designpattern.bridge.Phone">
+      <point x="0.0" y="-15.0" />
+      <point x="66.0" y="55.0" />
+      <point x="118.75" y="55.0" />
+      <point x="-21.0" y="15.0" />
+    </edge>
+    <edge source="designpattern.bridge.Vivo" target="designpattern.bridge.IBrand">
+      <point x="0.0" y="-15.0" />
+      <point x="144.0" y="210.0" />
+      <point x="115.25" y="210.0" />
+      <point x="21.25" y="15.0" />
+    </edge>
+    <edge source="designpattern.bridge.XiaoMi" target="designpattern.bridge.IBrand">
+      <point x="0.0" y="-15.0" />
+      <point x="44.0" y="210.0" />
+      <point x="72.75" y="210.0" />
+      <point x="-21.25" y="15.0" />
+    </edge>
+    <edge source="designpattern.bridge.FoldedPhone" target="designpattern.bridge.Phone">
+      <point x="0.0" y="-15.0" />
+      <point x="213.5" y="55.0" />
+      <point x="160.75" y="55.0" />
+      <point x="21.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="153.0" y="132.5" />
+  <SelectedNodes>
+    <node>designpattern.bridge.IBrand</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
