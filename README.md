@@ -1,11 +1,11 @@
-##principle 6大设计原则
-  ###1）singleresponsibility 单一职责
-  ###2）segretation 接口隔离
-  ###3）inversion   依赖倒置
-  ###4）demeter     迪米特法则
-  ###5）liskov      里氏替换
-  ###6）ocp         开闭原则
-##uml   UML简要
+## principle 6大设计原则
+  ### 1）singleresponsibility 单一职责
+  ### 2）segretation 接口隔离
+  ### 3）inversion   依赖倒置
+  ### 4）demeter     迪米特法则
+  ### 5）liskov      里氏替换
+  ### 6）ocp         开闭原则
+## uml   UML简要
   ###1）dependence       依赖
   ###2）generalization   泛化
   ###3）implementation   实现
