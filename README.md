@@ -22,3 +22,6 @@
   ### 7）decorator        装饰者模式
   ### 8）composite        组合模式
   ### 9）facade           外观模式
+  ### 10）flyweight       享元模式
+  ### 11) proxy           代理模式
+  ### 12) template        模板模式
