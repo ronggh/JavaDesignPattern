@@ -2,7 +2,6 @@ package designpattern.template.improve;
 
 //抽象类，表示豆浆
 public abstract class SoyaMilk {
-
     // 模板方法make()
     // 模板方法可以做成final , 不让子类去覆盖.
     final void make() {

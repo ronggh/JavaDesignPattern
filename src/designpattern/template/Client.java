@@ -1,5 +1,6 @@
 package designpattern.template;
 
+// 客户端 ====> Client
 public class Client {
     public static void main(String[] args) {
         //制作红豆豆浆
