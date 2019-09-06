@@ -2,6 +2,7 @@ package designpattern.command.tv;
 
 import designpattern.command.ICommand;
 
+// ConcreteCommand ====> TvOnCommand
 public class TvOnCommand implements ICommand {
     // 聚合TVReceiver
     TvReceiver tv;

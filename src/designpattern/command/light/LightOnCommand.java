@@ -2,6 +2,7 @@ package designpattern.command.light;
 
 import designpattern.command.ICommand;
 
+// ConcreteCommand ====> LightOnCommand
 public class LightOnCommand implements ICommand {
     //聚合LightReceiver
     LightReceiver light;

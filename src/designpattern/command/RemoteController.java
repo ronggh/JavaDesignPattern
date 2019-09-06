@@ -1,5 +1,6 @@
 package designpattern.command;
 
+// Invoker ====> RemoteController
 public class RemoteController {
     // 按钮的命令数组
     ICommand[] onCommands;
@@ -10,7 +11,6 @@ public class RemoteController {
 
     // 构造器，完成对按钮初始化
     public RemoteController() {
-
         onCommands = new ICommand[5];
         offCommands = new ICommand[5];
 

@@ -1,5 +1,6 @@
 package designpattern.command.light;
 
+// Receiver ====> LightReceiver
 public class LightReceiver {
     public void on() {
         System.out.println(" 电灯打开了.. ");

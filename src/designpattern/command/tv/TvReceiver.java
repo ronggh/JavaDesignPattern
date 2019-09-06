@@ -1,5 +1,6 @@
 package designpattern.command.tv;
 
+// Receiver ====> TvReceiver
 public class TvReceiver {
     //
     public void on() {
